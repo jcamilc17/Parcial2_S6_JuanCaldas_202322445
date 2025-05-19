@@ -1,0 +1,10 @@
+<h1>Lista de Aerolineas</h1>
+<div class="container-fluid">
+  <div class="row">
+      <div class="card p-2" *ngFor="let aerolinea of aerolineas" style="width: 15rem; height: 33rem; color: {{aerolinea.identityColor}}" back>
+        <div class="card-body" >
+          <h5 class="card-title">{{ aerolinea.airlineName }}</h5>
+        </div>
+      </div>
+  </div>
+ </div>
